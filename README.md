@@ -12,11 +12,11 @@ A lightweight, interactive English lesson for Grade 3, built with plain HTML, CS
 - Three reflection choices with persistent vote counters.
 - Homework: **WB ex 1 p22**.
 
-Use the arrow keys, the on-screen arrows, or click an empty left/right part of the slide. Choose your local video on screen 2. Video files stay on your computer and need to be selected again after a reload. Scores and votes are stored in the current browser; they do not sync across devices.
+Use the arrow keys, the on-screen arrows, or click an empty left/right part of the slide. Play the supplied YouTube song directly on screen 2. Scores and votes are stored in the current browser; they do not sync across devices.
 
 ## Performance
 
-The complete deployable website is approximately 453 KB, down from 6.45 MB (93% smaller). The first screen requires about 71 KB before HTTP compression. WebP images, AAC speech audio, minified scripts/styles, reusable audio objects and idle-time image preloading keep the lesson lightweight. No frameworks, remote fonts, analytics or external runtime dependencies are used. Save-Data and slow connections skip full-deck preloading.
+Full-HD backgrounds (1920 × 1080), native crisp game buttons, three teams, shared persistent scores, WebP assets, AAC audio and idle-time preloading. The YouTube player is created only after clicking Play, keeping initial loading light. Video playback requires internet access. No frameworks or remote fonts are used.
 
 ## Running locally
 
